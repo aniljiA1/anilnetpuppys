@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 246 248 252; --fg: 15 35 71; --card: 255 255 255; --muted: 88 102 128;
+  --navy: 15 35 71; --gold: 245 184 32;
+}
+:root[data-theme="dark"] {
+  --bg: 11 20 38; --fg: 234 240 251; --card: 20 32 58; --muted: 158 172 198;
+  --navy: 245 184 32; --gold: 245 184 32;
+}
+html { scroll-behavior: smooth; }
+body { @apply bg-bg text-fg font-body antialiased; transition: background-color .4s, color .4s; }
+:focus-visible { outline: 3px solid rgb(var(--gold)); outline-offset: 3px; }
+@media (pointer: fine) { .has-cursor, .has-cursor * { cursor: none !important; } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, ::before, ::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
