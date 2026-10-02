@@ -3,8 +3,8 @@
 An animated, responsive redesign of the TIS homepage, keeping the school's copy, contact details and brand colours (navy and yellow).
 
 ## Live Demo
-- **Live URL:** _add your Vercel / Netlify link_
-- **Repository:** _add your GitHub link_
+- **Live URL:** https://anilnetpuppys-tis-homepage-redesign.vercel.app/
+
 
 ## Tech Stack
 - Next.js 14 (App Router), React 18
@@ -22,7 +22,7 @@ Reduced-motion preferences are respected in `globals.css`.
 
 ## Getting Started
 ```bash
-git clone https://github.com/your-username/tis-homepage-redesign.git
+git clone https://github.com/aniljiA1/anilnetpuppys.git
 cd tis-homepage-redesign
 npm install
 npm run dev        # http://localhost:3000
@@ -31,6 +31,7 @@ npm run build      # production build
 
 ## Deploy
 Push to GitHub, import the repo in Vercel, and deploy with default Next.js settings.
+**Live URL:** https://anilnetpuppys-tis-homepage-redesign.vercel.app/
 
 ## Architecture
 - `src/components/ui/` - Button, Reveal
@@ -43,3 +44,7 @@ Push to GitHub, import the repo in Vercel, and deploy with default Next.js setti
 ## Notes
 The enquiry form is front-end only (no OTP or backend); wire `onSubmit` in `Enquiry.jsx` to your API.
 Copy and the hero image come from tis.edu.in.
+
+## Author
+**Anil Kumar**
+
